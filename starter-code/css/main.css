@@ -1,4 +1,8 @@
-/*
+* {
+  margin: 0;
+  padding: 0;
+}
+  /*
 Colors to use:
 dark blue: #06365f
 light blue: #1c5380
@@ -7,4 +11,60 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
 }
+
+.container {
+  width: 0 auto;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, #1c5380, #1c5380 50%, white 50%, white);
+	    background-size: cover;
+    	background-repeat: no-repeat;
+
+}
+
+.header {
+    height: 300px; //for example
+    position: absolute;
+    background: #1c5380;
+    display: block;
+    width: 100%;
+}
+
+.logoInsta {
+margin-left: 700px;
+
+}
+.wrapper {
+  width: 100%; 
+  position: 
+}
+
+.phones {
+  padding: 1em;
+  margin-left: 125px;
+  height: 550px;
+  width: 500px; 
+  float: left;
+
+}
+
+.aside {
+  padding-left: 30px;
+  background-image: url("images/frame.png") 0 0 no-repeat; 
+  margin-right: 125px;
+}
+
+.homeButton {
+  //contains the home-image 
+}
+
+footer {
+  box-sizing: border-box;  
+  width: 100%; 
+  clear: both;
+  text-align: center;
+  padding: 35px; 
+
+}
+
